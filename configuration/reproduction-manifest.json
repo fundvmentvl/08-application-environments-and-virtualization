@@ -1,0 +1,14 @@
+{
+  "vm": "CEN4025-Reproduction-Shell-1",
+  "cpus": 2,
+  "memory_mib": 4096,
+  "disk_gib": 30,
+  "architecture": "aarch64",
+  "network": "shared DHCP",
+  "image_url": "https://cloud-images.ubuntu.com/releases/resolute/release/ubuntu-26.04-server-cloudimg-arm64.img",
+  "image_sha256": "8eb876c2ccc4b6ff89e4a65d511815923b285e04503ba465809bf587f763da24",
+  "source": "/Users/zerocool/IdeaProjects/08-application-environments-and-virtualization",
+  "cloud_init": "seed/user-data",
+  "application_port": 8080,
+  "automation": "shell"
+}
